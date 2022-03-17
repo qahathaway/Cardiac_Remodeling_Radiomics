@@ -1,0 +1,64 @@
+##Copy files of same type to different folder##
+find -iname '*.dcm' -exec cp {} /home/h63914/Downloads/rahuldeo-echocv-04f61c73a53a/Camp_India/ \;
+find -iname '*_original_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/IVS/ \;
+find -iname '*_segmentation_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/IVS/ \;
+find -iname '*_original_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/LV/ \;
+find -iname '*_segmentation_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/LV/ \;
+find -iname '*_original_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/PW/ \;
+find -iname '*_segmentation_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/PW/ \;
+
+find -iname '*_CampIndia_original_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Camp_India/IVS \;
+find -iname '*_CampIndia_segmentation_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Camp_India/IVS/ \;
+find -iname '*_CampIndia_original_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Camp_India/LV/ \;
+find -iname '*_CampIndia_segmentation_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Camp_India/LV/ \;
+find -iname '*_CampIndia_original_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Camp_India/PW/ \;
+find -iname '*_CampIndia_segmentation_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Camp_India/PW/ \;
+
+find -iname '*CHOICE_original_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/CHOICE/IVS/ \;
+find -iname '*CHOICE_segmentation_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/CHOICE/IVS/ \;
+find -iname '*CHOICE_original_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/CHOICE/LV/ \;
+find -iname '*CHOICE_segmentation_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/CHOICE/LV/ \;
+find -iname '*CHOICE_original_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/CHOICE/PW/ \;
+find -iname '*CHOICE_segmentation_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/CHOICE/PW/ \;
+
+find -iname '*FullEcho_original_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/FullEcho/IVS/ \;
+find -iname '*FullEcho_segmentation_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/FullEcho/IVS/ \;
+find -iname '*FullEcho_original_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/FullEcho/LV/ \;
+find -iname '*FullEcho_segmentation_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/FullEcho/LV/ \;
+find -iname '*FullEcho_original_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/FullEcho/PW/ \;
+find -iname '*FullEcho_segmentation_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/FullEcho/PW/ \;
+
+find -iname '*Porcine_original_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Porcine/IVS/ \;
+find -iname '*Porcine_segmentation_IVS.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Porcine/IVS/ \;
+find -iname '*Porcine_original_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Porcine/LV/ \;
+find -iname '*Porcine_segmentation_LV.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Porcine/LV/ \;
+find -iname '*Porcine_original_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Porcine/PW/ \;
+find -iname '*Porcine_segmentation_PW.png' -exec cp {} /home/h63914/Documents/Pyradiomics_Input_Output/Input/Porcine/PW/ \;
+
+find -iname '*_segmentation_PW.png' -exec cp {} /media/john/My\ Passport1/Pyradiomics_Input_Output/Output/Camp_India/Grey_Full/original_image/ \;
+
+##Copy all names in directory to txt##
+ls > /home/h63914/Documents/ls_Names_CHOICE.txt
+
+##Find unique names in directory##
+find ~/Documents/Radiomics_DICOM/Camp_India/1/ -type f -printf '%f\n' | sed 's/\..*//' | sort | uniq
+find -type f -printf '%f\n' | sed 's/\..*//' | sort | uniq
+find -type f -printf '%f\n' | sort | uniq
+
+##Find names matching string with full path##
+find $PWD -maxdepth 1 -iregex '.+\_original_IVS.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\_segmentation_IVS.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\_original_LV.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\_segmentation_LV.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\_original_PW.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\_segmentation_PW.png' | sort
+
+find $PWD -maxdepth 1 -iregex '.+\CampIndia_original_IVS.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\CampIndia_segmentation_IVS.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\CampIndia_original_LV.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\CampIndia_segmentation_LV.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\CampIndia_original_PW.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\CampIndia_segmentation_PW.png' | sort
+
+find $PWD -maxdepth 1 -iregex '.+\IMG.png' | sort
+find $PWD -maxdepth 1 -iregex '.+\_z001.png' | sort
