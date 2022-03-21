@@ -1,4 +1,4 @@
-# Pyradiomcs Extracted Features
+# Pyradiomics Extracted Features
 
 ### Param file provides specific specifications used in feature extraction
 
