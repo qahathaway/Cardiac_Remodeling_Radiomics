@@ -1,0 +1,2 @@
+Image,Mask,Label
+/path/to/image.png,/path/to/mask.png,255
