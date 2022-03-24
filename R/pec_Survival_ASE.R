@@ -1,16 +1,9 @@
 
 ##Load Dataset##
-MESA <- data.frame(read.csv(file = '/Users/quincy/Documents/Research/HVI/Radiomics - Automated/FINAL/Submission/Nature Cardiovascular Research/C-Statistic/CHOICE_2.csv'))
-
-##Impute Median Values##
-detach("package:randomForestSRC", unload = TRUE)
-library(mlr)
-imputed = impute(MESA, target = character(0), classes = list(numeric = imputeMedian(), integer = imputeMedian()))
-dat <- as.data.frame(imputed$data)
+dat <- data.frame(read.csv(file = '/path/to/file.csv'))
 
 #Load Packages
 library(survival)
-library(randomForestSRC)
 library(pec)
 library(prodlim)
 
@@ -24,7 +17,7 @@ rsfProb <- rfsrc(Surv(duration,event)~Prob,data=dat,ntree=1000,forest=TRUE)
 
 rsfALL <- rfsrc(Surv(duration,event)~.,data=dat,ntree=1000,forest=TRUE)
 
-# compute the apparent estimate of the C-index at different time points
+#Compute the apparent estimate of the C-index at different time points - External Validation (POCUS)
 ApparrentCindex <- pec::cindex(list("COXPH Prob"=coxProb,
                                      "COXPH ALL"=coxALL),
               formula=Surv(duration,event)~.,data=dat,
@@ -37,23 +30,20 @@ ApparrentCindex2 <- pec::cindex(list("COXPH Prob"=rsfProb,
 
 plot(ApparrentCindex, legend = FALSE, xlim=c(0,200))
 plot(ApparrentCindex2, legend = FALSE, xlim=c(0,200))
-write.csv(ApparrentCindex2$AppCindex, file = "/Users/quincy/Documents/Research/HVI/MESA/FINAL/Testerss.csv")
+write.csv(ApparrentCindex2$AppCindex, file = "/path/to/file.csv")
 
+#Compute the apparent estimate of the C-index at different time points - External Validation (High-End)
+ApparrentCindex <- pec::cindex(list("COXPH Prob"=coxProb,
+                                     "COXPH ALL"=coxALL),
+              formula=Surv(duration,event)~.,data=dat,
+              eval.times=seq(0,266,1), pred.times=seq(0,266,1))
 
-##cumulative prediction error##
+ApparrentCindex2 <- pec::cindex(list("COXPH Prob"=rsfProb,
+                                    "COXPH ALL"=rsfALL),
+                               formula=Surv(duration,event)~.,data=dat,
+                               eval.times=seq(0,266,1), pred.times=seq(0,266,1))
 
-Models <-  list('CoxProb'=coxph(Surv(duration,event)~Prob,data=dat,x=TRUE,y=TRUE),
-               'CoxALL'=coxph(Surv(duration,event)~.,data=dat,x=TRUE,y=TRUE))
+plot(ApparrentCindex, legend = FALSE, xlim=c(0,300))
+plot(ApparrentCindex2, legend = FALSE, xlim=c(0,300))
+write.csv(ApparrentCindex2$AppCindex, file = "/path/to/file.csv")
 
-# compute the apparent prediction error
-PredError <- pec(object=Models,
-                 formula=Surv(duration,event)~.,
-                 data=dat,
-                 exact=TRUE,
-                 cens.model="marginal",
-                 splitMethod="none",
-                 B=0,
-                 verbose=TRUE)
-print(PredError,times=seq(189,189,1))
-summary(PredError)
-plot(PredError,xlim=c(0,200), legend = FALSE)
