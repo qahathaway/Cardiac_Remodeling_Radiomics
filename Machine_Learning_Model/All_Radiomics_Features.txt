@@ -1,0 +1,1080 @@
+{
+    "project": "project/60648e4d7ca0e613b700248e",
+    "fields": {
+        "0000d2": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_Idn"
+        },
+        "0000b6": {
+            "optype": "numeric",
+            "name": "PW_original_shape2D_MinorAxisLength"
+        },
+        "0000fd": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_HighGrayLevelEmphasis"
+        },
+        "0000ba": {
+            "optype": "numeric",
+            "name": "PW_original_shape2D_Sphericity"
+        },
+        "0000b7": {
+            "optype": "numeric",
+            "name": "PW_original_shape2D_Perimeter"
+        },
+        "0000bb": {
+            "optype": "numeric",
+            "name": "PW_original_firstorder_RobustMeanAbsoluteDeviation"
+        },
+        "0000e9": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_GrayLevelVariance"
+        },
+        "0000e8": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_GrayLevelNonUniformityNormalized"
+        },
+        "0000ff": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_LargeDependenceHighGrayLevelEmphasis"
+        },
+        "000099": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_SmallAreaEmphasis"
+        },
+        "000098": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_SizeZoneNonUniformityNormalized"
+        },
+        "0000fb": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_GrayLevelNonUniformity"
+        },
+        "0000fc": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_GrayLevelVariance"
+        },
+        "000095": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_LargeAreaLowGrayLevelEmphasis"
+        },
+        "000094": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_LargeAreaHighGrayLevelEmphasis"
+        },
+        "000097": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_SizeZoneNonUniformity"
+        },
+        "000096": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_LowGrayLevelZoneEmphasis"
+        },
+        "000091": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_GrayLevelVariance"
+        },
+        "000090": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_GrayLevelNonUniformityNormalized"
+        },
+        "000093": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_LargeAreaEmphasis"
+        },
+        "000092": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_HighGrayLevelZoneEmphasis"
+        },
+        "000015": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_ClusterTendency"
+        },
+        "000014": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_ClusterShade"
+        },
+        "000017": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_Correlation"
+        },
+        "000016": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_Contrast"
+        },
+        "000011": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_Autocorrelation"
+        },
+        "000010": {
+            "optype": "numeric",
+            "name": "IVS_original_firstorder_Variance"
+        },
+        "000013": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_ClusterProminence"
+        },
+        "000012": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_JointAverage"
+        },
+        "000019": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_DifferenceEntropy"
+        },
+        "000018": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_DifferenceAverage"
+        },
+        "00002a": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_HighGrayLevelRunEmphasis"
+        },
+        "00002b": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_LongRunEmphasis"
+        },
+        "00002c": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_LongRunHighGrayLevelEmphasis"
+        },
+        "00002d": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_LongRunLowGrayLevelEmphasis"
+        },
+        "00002e": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_LowGrayLevelRunEmphasis"
+        },
+        "00002f": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_RunEntropy"
+        },
+        "0000d6": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_SumSquares"
+        },
+        "0000f4": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_ZoneEntropy"
+        },
+        "0000f5": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_ZonePercentage"
+        },
+        "0000f6": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_ZoneVariance"
+        },
+        "0000f7": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_DependenceEntropy"
+        },
+        "0000f0": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_SizeZoneNonUniformityNormalized"
+        },
+        "0000f1": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_SmallAreaEmphasis"
+        },
+        "0000f2": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_SmallAreaHighGrayLevelEmphasis"
+        },
+        "0000f3": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_SmallAreaLowGrayLevelEmphasis"
+        },
+        "00009e": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_ZoneVariance"
+        },
+        "00009d": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_ZonePercentage"
+        },
+        "0000ec": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_LargeAreaHighGrayLevelEmphasis"
+        },
+        "00009f": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_DependenceEntropy"
+        },
+        "00009a": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_SmallAreaHighGrayLevelEmphasis"
+        },
+        "0000ed": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_LargeAreaLowGrayLevelEmphasis"
+        },
+        "00009c": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_ZoneEntropy"
+        },
+        "00009b": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_SmallAreaLowGrayLevelEmphasis"
+        },
+        "000020": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_Idmn"
+        },
+        "000021": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_Id"
+        },
+        "000022": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_Idn"
+        },
+        "000023": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_InverseVariance"
+        },
+        "000024": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_MaximumProbability"
+        },
+        "000025": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_SumEntropy"
+        },
+        "000026": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_SumSquares"
+        },
+        "000027": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_GrayLevelNonUniformity"
+        },
+        "000028": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_GrayLevelNonUniformityNormalized"
+        },
+        "000029": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_GrayLevelVariance"
+        },
+        "00001e": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_Imc2"
+        },
+        "00001d": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_Imc1"
+        },
+        "0000e5": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_ShortRunHighGrayLevelEmphasis"
+        },
+        "00001f": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_Idm"
+        },
+        "00001a": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_DifferenceVariance"
+        },
+        "00001c": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_JointEntropy"
+        },
+        "00001b": {
+            "optype": "numeric",
+            "name": "IVS_original_glcm_JointEnergy"
+        },
+        "0000e4": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_ShortRunEmphasis"
+        },
+        "0000fa": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_DependenceVariance"
+        },
+        "0000ee": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_LowGrayLevelZoneEmphasis"
+        },
+        "0000e1": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_RunLengthNonUniformityNormalized"
+        },
+        "0000bf": {
+            "optype": "numeric",
+            "name": "PW_original_firstorder_Uniformity"
+        },
+        "0000e0": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_RunLengthNonUniformity"
+        },
+        "0000e3": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_RunVariance"
+        },
+        "0000da": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_HighGrayLevelRunEmphasis"
+        },
+        "000039": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_GrayLevelVariance"
+        },
+        "000038": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_GrayLevelNonUniformityNormalized"
+        },
+        "000037": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_GrayLevelNonUniformity"
+        },
+        "000036": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_ShortRunLowGrayLevelEmphasis"
+        },
+        "000035": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_ShortRunHighGrayLevelEmphasis"
+        },
+        "000034": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_ShortRunEmphasis"
+        },
+        "000033": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_RunVariance"
+        },
+        "000032": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_RunPercentage"
+        },
+        "000031": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_RunLengthNonUniformityNormalized"
+        },
+        "000030": {
+            "optype": "numeric",
+            "name": "IVS_original_glrlm_RunLengthNonUniformity"
+        },
+        "0000e7": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_GrayLevelNonUniformity"
+        },
+        "0000fe": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_LargeDependenceEmphasis"
+        },
+        "00004b": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_GrayLevelNonUniformity"
+        },
+        "00004c": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_GrayLevelVariance"
+        },
+        "00004a": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_DependenceVariance"
+        },
+        "00004f": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_LargeDependenceHighGrayLevelEmphasis"
+        },
+        "00004d": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_HighGrayLevelEmphasis"
+        },
+        "00004e": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_LargeDependenceEmphasis"
+        },
+        "0000d0": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_Idmn"
+        },
+        "000048": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_DependenceNonUniformity"
+        },
+        "000049": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_DependenceNonUniformityNormalized"
+        },
+        "000042": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_SmallAreaHighGrayLevelEmphasis"
+        },
+        "000043": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_SmallAreaLowGrayLevelEmphasis"
+        },
+        "000040": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_SizeZoneNonUniformityNormalized"
+        },
+        "000041": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_SmallAreaEmphasis"
+        },
+        "000046": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_ZoneVariance"
+        },
+        "000047": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_DependenceEntropy"
+        },
+        "000044": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_ZoneEntropy"
+        },
+        "000045": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_ZonePercentage"
+        },
+        "00003f": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_SizeZoneNonUniformity"
+        },
+        "00003e": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_LowGrayLevelZoneEmphasis"
+        },
+        "00003d": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_LargeAreaLowGrayLevelEmphasis"
+        },
+        "00003c": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_LargeAreaHighGrayLevelEmphasis"
+        },
+        "00003b": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_LargeAreaEmphasis"
+        },
+        "00003a": {
+            "optype": "numeric",
+            "name": "IVS_original_glszm_HighGrayLevelZoneEmphasis"
+        },
+        "00006d": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_ClusterTendency"
+        },
+        "00006e": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_Contrast"
+        },
+        "00006f": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_Correlation"
+        },
+        "0000bc": {
+            "optype": "numeric",
+            "name": "PW_original_firstorder_RootMeanSquared"
+        },
+        "0000bd": {
+            "optype": "numeric",
+            "name": "PW_original_firstorder_Skewness"
+        },
+        "00006a": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_JointAverage"
+        },
+        "00006b": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_ClusterProminence"
+        },
+        "00006c": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_ClusterShade"
+        },
+        "0000a5": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_HighGrayLevelEmphasis"
+        },
+        "0000a4": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_GrayLevelVariance"
+        },
+        "0000a7": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_LargeDependenceHighGrayLevelEmphasis"
+        },
+        "0000a6": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_LargeDependenceEmphasis"
+        },
+        "0000a1": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_DependenceNonUniformityNormalized"
+        },
+        "0000a0": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_DependenceNonUniformity"
+        },
+        "0000a3": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_GrayLevelNonUniformity"
+        },
+        "0000a2": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_DependenceVariance"
+        },
+        "0000a9": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_LowGrayLevelEmphasis"
+        },
+        "0000a8": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_LargeDependenceLowGrayLevelEmphasis"
+        },
+        "000059": {
+            "optype": "numeric",
+            "name": "IVS_original_ngtdm_Strength"
+        },
+        "000058": {
+            "optype": "numeric",
+            "name": "IVS_original_ngtdm_Contrast"
+        },
+        "0000d1": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_Id"
+        },
+        "000051": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_LowGrayLevelEmphasis"
+        },
+        "000050": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_LargeDependenceLowGrayLevelEmphasis"
+        },
+        "000053": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_SmallDependenceHighGrayLevelEmphasis"
+        },
+        "000052": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_SmallDependenceEmphasis"
+        },
+        "000055": {
+            "optype": "numeric",
+            "name": "IVS_original_ngtdm_Busyness"
+        },
+        "000054": {
+            "optype": "numeric",
+            "name": "IVS_original_gldm_SmallDependenceLowGrayLevelEmphasis"
+        },
+        "000057": {
+            "optype": "numeric",
+            "name": "IVS_original_ngtdm_Complexity"
+        },
+        "000056": {
+            "optype": "numeric",
+            "name": "IVS_original_ngtdm_Coarseness"
+        },
+        "0000db": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_LongRunEmphasis"
+        },
+        "0000d4": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_MaximumProbability"
+        },
+        "0000d5": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_SumEntropy"
+        },
+        "0000e2": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_RunPercentage"
+        },
+        "0000ae": {
+            "optype": "numeric",
+            "name": "LV_original_ngtdm_Coarseness"
+        },
+        "0000ad": {
+            "optype": "numeric",
+            "name": "LV_original_ngtdm_Busyness"
+        },
+        "0000af": {
+            "optype": "numeric",
+            "name": "LV_original_ngtdm_Complexity"
+        },
+        "0000aa": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_SmallDependenceEmphasis"
+        },
+        "0000ac": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_SmallDependenceLowGrayLevelEmphasis"
+        },
+        "0000ab": {
+            "optype": "numeric",
+            "name": "LV_original_gldm_SmallDependenceHighGrayLevelEmphasis"
+        },
+        "0000df": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_RunEntropy"
+        },
+        "000064": {
+            "optype": "numeric",
+            "name": "LV_original_firstorder_RootMeanSquared"
+        },
+        "000065": {
+            "optype": "numeric",
+            "name": "LV_original_firstorder_Skewness"
+        },
+        "000066": {
+            "optype": "numeric",
+            "name": "LV_original_firstorder_TotalEnergy"
+        },
+        "000067": {
+            "optype": "numeric",
+            "name": "LV_original_firstorder_Uniformity"
+        },
+        "000060": {
+            "optype": "numeric",
+            "name": "LV_original_shape2D_PerimeterSurfaceRatio"
+        },
+        "000061": {
+            "optype": "numeric",
+            "name": "LV_original_shape2D_PixelSurface"
+        },
+        "000062": {
+            "optype": "numeric",
+            "name": "LV_original_shape2D_Sphericity"
+        },
+        "000063": {
+            "optype": "numeric",
+            "name": "LV_original_firstorder_RobustMeanAbsoluteDeviation"
+        },
+        "0000b8": {
+            "optype": "numeric",
+            "name": "PW_original_shape2D_PerimeterSurfaceRatio"
+        },
+        "0000b9": {
+            "optype": "numeric",
+            "name": "PW_original_shape2D_PixelSurface"
+        },
+        "0000ef": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_SizeZoneNonUniformity"
+        },
+        "0000de": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_LowGrayLevelRunEmphasis"
+        },
+        "000068": {
+            "optype": "numeric",
+            "name": "LV_original_firstorder_Variance"
+        },
+        "000069": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_Autocorrelation"
+        },
+        "0000b1": {
+            "optype": "numeric",
+            "name": "LV_original_ngtdm_Strength"
+        },
+        "000109": {
+            "optype": "numeric",
+            "name": "PW_original_ngtdm_Strength"
+        },
+        "000108": {
+            "optype": "numeric",
+            "name": "PW_original_ngtdm_Contrast"
+        },
+        "000107": {
+            "optype": "numeric",
+            "name": "PW_original_ngtdm_Complexity"
+        },
+        "000106": {
+            "optype": "numeric",
+            "name": "PW_original_ngtdm_Coarseness"
+        },
+        "000105": {
+            "optype": "numeric",
+            "name": "PW_original_ngtdm_Busyness"
+        },
+        "000104": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_SmallDependenceLowGrayLevelEmphasis"
+        },
+        "000103": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_SmallDependenceHighGrayLevelEmphasis"
+        },
+        "000102": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_SmallDependenceEmphasis"
+        },
+        "000101": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_LowGrayLevelEmphasis"
+        },
+        "000100": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_LargeDependenceLowGrayLevelEmphasis"
+        },
+        "0000d3": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_InverseVariance"
+        },
+        "00005a": {
+            "optype": "numeric",
+            "name": "LV_original_shape2D_Elongation"
+        },
+        "00005c": {
+            "optype": "numeric",
+            "name": "LV_original_shape2D_MaximumDiameter"
+        },
+        "00005b": {
+            "optype": "numeric",
+            "name": "LV_original_shape2D_MajorAxisLength"
+        },
+        "00005e": {
+            "optype": "numeric",
+            "name": "LV_original_shape2D_MinorAxisLength"
+        },
+        "00005d": {
+            "optype": "numeric",
+            "name": "LV_original_shape2D_MeshSurface"
+        },
+        "00005f": {
+            "optype": "numeric",
+            "name": "LV_original_shape2D_Perimeter"
+        },
+        "0000f8": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_DependenceNonUniformity"
+        },
+        "0000c9": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_DifferenceEntropy"
+        },
+        "00008f": {
+            "optype": "numeric",
+            "name": "LV_original_glszm_GrayLevelNonUniformity"
+        },
+        "0000dc": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_LongRunHighGrayLevelEmphasis"
+        },
+        "00008d": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_ShortRunHighGrayLevelEmphasis"
+        },
+        "00008e": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_ShortRunLowGrayLevelEmphasis"
+        },
+        "00008b": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_RunVariance"
+        },
+        "00008c": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_ShortRunEmphasis"
+        },
+        "0000dd": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_LongRunLowGrayLevelEmphasis"
+        },
+        "00008a": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_RunPercentage"
+        },
+        "000073": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_JointEnergy"
+        },
+        "000072": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_DifferenceVariance"
+        },
+        "000071": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_DifferenceEntropy"
+        },
+        "000070": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_DifferenceAverage"
+        },
+        "000077": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_Idm"
+        },
+        "000076": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_Imc2"
+        },
+        "000075": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_Imc1"
+        },
+        "000074": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_JointEntropy"
+        },
+        "0000c7": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_Correlation"
+        },
+        "0000c6": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_Contrast"
+        },
+        "000079": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_Id"
+        },
+        "000078": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_Idmn"
+        },
+        "0000c3": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_ClusterProminence"
+        },
+        "0000c2": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_JointAverage"
+        },
+        "0000c1": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_Autocorrelation"
+        },
+        "0000c0": {
+            "optype": "numeric",
+            "name": "PW_original_firstorder_Variance"
+        },
+        "0000c4": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_ClusterShade"
+        },
+        "0000c8": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_DifferenceAverage"
+        },
+        "0000b0": {
+            "optype": "numeric",
+            "name": "LV_original_ngtdm_Contrast"
+        },
+        "00000f": {
+            "optype": "numeric",
+            "name": "IVS_original_firstorder_Uniformity"
+        },
+        "0000ea": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_HighGrayLevelZoneEmphasis"
+        },
+        "00000d": {
+            "optype": "numeric",
+            "name": "IVS_original_firstorder_Skewness"
+        },
+        "00000e": {
+            "optype": "numeric",
+            "name": "IVS_original_firstorder_TotalEnergy"
+        },
+        "00000b": {
+            "optype": "numeric",
+            "name": "IVS_original_firstorder_RobustMeanAbsoluteDeviation"
+        },
+        "00000c": {
+            "optype": "numeric",
+            "name": "IVS_original_firstorder_RootMeanSquared"
+        },
+        "00000a": {
+            "optype": "numeric",
+            "name": "IVS_original_shape2D_Sphericity"
+        },
+        "0000e6": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_ShortRunLowGrayLevelEmphasis"
+        },
+        "0000be": {
+            "optype": "numeric",
+            "name": "PW_original_firstorder_TotalEnergy"
+        },
+        "00007c": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_MaximumProbability"
+        },
+        "00007b": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_InverseVariance"
+        },
+        "00007a": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_Idn"
+        },
+        "0000eb": {
+            "optype": "numeric",
+            "name": "PW_original_glszm_LargeAreaEmphasis"
+        },
+        "00007f": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_GrayLevelNonUniformity"
+        },
+        "00007e": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_SumSquares"
+        },
+        "00007d": {
+            "optype": "numeric",
+            "name": "LV_original_glcm_SumEntropy"
+        },
+        "0000cf": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_Idm"
+        },
+        "0000ce": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_Imc2"
+        },
+        "0000cd": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_Imc1"
+        },
+        "0000cc": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_JointEntropy"
+        },
+        "0000cb": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_JointEnergy"
+        },
+        "0000ca": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_DifferenceVariance"
+        },
+        "0000f9": {
+            "optype": "numeric",
+            "name": "PW_original_gldm_DependenceNonUniformityNormalized"
+        },
+        "0000d8": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_GrayLevelNonUniformityNormalized"
+        },
+        "0000d9": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_GrayLevelVariance"
+        },
+        "000088": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_RunLengthNonUniformity"
+        },
+        "000089": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_RunLengthNonUniformityNormalized"
+        },
+        "000086": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_LowGrayLevelRunEmphasis"
+        },
+        "000087": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_RunEntropy"
+        },
+        "000084": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_LongRunHighGrayLevelEmphasis"
+        },
+        "000085": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_LongRunLowGrayLevelEmphasis"
+        },
+        "000082": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_HighGrayLevelRunEmphasis"
+        },
+        "000083": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_LongRunEmphasis"
+        },
+        "000080": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_GrayLevelNonUniformityNormalized"
+        },
+        "000081": {
+            "optype": "numeric",
+            "name": "LV_original_glrlm_GrayLevelVariance"
+        },
+        "000006": {
+            "optype": "numeric",
+            "name": "IVS_original_shape2D_MinorAxisLength"
+        },
+        "000007": {
+            "optype": "numeric",
+            "name": "IVS_original_shape2D_Perimeter"
+        },
+        "000004": {
+            "optype": "numeric",
+            "name": "IVS_original_shape2D_MaximumDiameter"
+        },
+        "000005": {
+            "optype": "numeric",
+            "name": "IVS_original_shape2D_MeshSurface"
+        },
+        "000002": {
+            "optype": "numeric",
+            "name": "IVS_original_shape2D_Elongation"
+        },
+        "000003": {
+            "optype": "numeric",
+            "name": "IVS_original_shape2D_MajorAxisLength"
+        },
+        "000000": {
+            "optype": "text",
+            "name": "﻿Name",
+            "term_analysis": {
+                "language": "none",
+                "enabled": true,
+                "token_mode": "all",
+                "case_sensitive": false,
+                "use_stopwords": false,
+                "stopword_removal": "selected_language"
+            }
+        },
+        "000001": {
+            "optype": "categorical",
+            "name": "LV-Dys",
+            "term_analysis": {
+                "enabled": true
+            }
+        },
+        "0000d7": {
+            "optype": "numeric",
+            "name": "PW_original_glrlm_GrayLevelNonUniformity"
+        },
+        "0000b2": {
+            "optype": "numeric",
+            "name": "PW_original_shape2D_Elongation"
+        },
+        "000008": {
+            "optype": "numeric",
+            "name": "IVS_original_shape2D_PerimeterSurfaceRatio"
+        },
+        "000009": {
+            "optype": "numeric",
+            "name": "IVS_original_shape2D_PixelSurface"
+        },
+        "0000b3": {
+            "optype": "numeric",
+            "name": "PW_original_shape2D_MajorAxisLength"
+        },
+        "0000b4": {
+            "optype": "numeric",
+            "name": "PW_original_shape2D_MaximumDiameter"
+        },
+        "0000c5": {
+            "optype": "numeric",
+            "name": "PW_original_glcm_ClusterTendency"
+        },
+        "0000b5": {
+            "optype": "numeric",
+            "name": "PW_original_shape2D_MeshSurface"
+        }
+    }
+}
