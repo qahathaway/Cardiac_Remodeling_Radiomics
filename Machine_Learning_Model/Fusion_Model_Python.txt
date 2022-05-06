@@ -1,0 +1,97 @@
+
+# Requires BigML Python bindings
+#
+# Install via: pip install bigml
+#
+# or clone it:
+#   git clone https://github.com/bigmlcom/python.git
+
+from bigml.fusion import Fusion
+from bigml.api import BigML
+
+# Downloads and generates a local version of the FUSION,
+# if it hasn't been downloaded previously.
+
+fusion = Fusion('fusion/60650500e4279b13a700063f',
+                  api=BigML("Kunovac_A",
+                            "814f7b83358e1a8f69996465242e1949bd7c1a54",
+                            domain="bigml.io"))
+
+# To make predictions fill the desired input_data
+# in next line.
+input_data = {
+    "PW_original_shape2D_Sphericity": 1,
+    "LV_original_glcm_Correlation": 1,
+    "PW_original_firstorder_Skewness": 1,
+    "PW_original_shape2D_MinorAxisLength": 1,
+    "LV_original_glcm_ClusterShade": 1,
+    "LV_original_glrlm_ShortRunLowGrayLevelEmphasis": 1,
+    "PW_original_glrlm_LowGrayLevelRunEmphasis": 1,
+    "LV_original_gldm_GrayLevelVariance": 1,
+    "LV_original_glcm_DifferenceAverage": 1,
+    "LV_original_glszm_SmallAreaEmphasis": 1,
+    "PW_original_gldm_GrayLevelNonUniformity": 1,
+    "LV_original_gldm_DependenceVariance": 1,
+    "PW_original_glcm_Correlation": 1,
+    "LV_original_glszm_LargeAreaHighGrayLevelEmphasis": 1,
+    "LV_original_glszm_SizeZoneNonUniformity": 1,
+    "PW_original_glrlm_ShortRunHighGrayLevelEmphasis": 1,
+    "PW_original_glcm_JointAverage": 1,
+    "PW_original_glszm_GrayLevelNonUniformity": 1,
+    "IVS_original_ngtdm_Strength": 1,
+    "IVS_original_glcm_ClusterShade": 1,
+    "PW_original_glcm_DifferenceAverage": 1,
+    "IVS_original_glcm_JointAverage": 1,
+    "IVS_original_gldm_LowGrayLevelEmphasis": 1,
+    "IVS_original_gldm_LargeDependenceLowGrayLevelEmphasis": 1,
+    "PW_original_glszm_SmallAreaLowGrayLevelEmphasis": 1,
+    "IVS_original_glcm_DifferenceEntropy": 1,
+    "IVS_original_gldm_SmallDependenceLowGrayLevelEmphasis": 1,
+    "IVS_original_ngtdm_Complexity": 1,
+    "IVS_original_ngtdm_Coarseness": 1,
+    "IVS_original_firstorder_TotalEnergy": 1,
+    "IVS_original_firstorder_RobustMeanAbsoluteDeviation": 1,
+    "IVS_original_glrlm_LowGrayLevelRunEmphasis": 1,
+    "IVS_original_shape2D_Sphericity": 1,
+    "IVS_original_glrlm_LongRunLowGrayLevelEmphasis": 1,
+    "LV_original_ngtdm_Coarseness": 1,
+    "LV_original_glcm_InverseVariance": 1,
+    "LV_original_ngtdm_Complexity": 1,
+    "PW_original_glszm_SmallAreaEmphasis": 1,
+    "LV_original_gldm_SmallDependenceLowGrayLevelEmphasis": 1,
+    "IVS_original_ngtdm_Contrast": 1,
+    "PW_original_glcm_Imc2": 1,
+    "PW_original_glcm_Imc1": 1,
+    "PW_original_glcm_JointEntropy": 1,
+    "PW_original_gldm_DependenceNonUniformityNormalized": 1,
+    "LV_original_glszm_ZoneEntropy": 1,
+    "LV_original_glszm_SmallAreaLowGrayLevelEmphasis": 1,
+    "LV_original_ngtdm_Contrast": 1,
+    "PW_original_shape2D_Elongation": 1,
+    "PW_original_ngtdm_Complexity": 1,
+    "LV_original_shape2D_PixelSurface": 1,
+    "LV_original_shape2D_Sphericity": 1,
+    "score": 1,
+    "PW_original_shape2D_PerimeterSurfaceRatio": 1,
+    "IVS_original_glcm_MaximumProbability": 1,
+    "PW_original_glcm_SumSquares": 1,
+    "IVS_original_shape2D_MinorAxisLength": 1,
+    "IVS_original_glcm_Idn": 1,
+    "PW_original_ngtdm_Contrast": 1,
+    "IVS_original_shape2D_Elongation": 1,
+    "IVS_original_glcm_SumEntropy": 1,
+    "IVS_original_glcm_SumSquares": 1,
+    "IVS_original_glszm_SmallAreaHighGrayLevelEmphasis": 1,
+    "PW_original_ngtdm_Busyness": 1,
+    "PW_original_gldm_SmallDependenceLowGrayLevelEmphasis": 1,
+    "IVS_original_shape2D_PerimeterSurfaceRatio": 1,
+    "IVS_original_glcm_Imc2": 1,
+    "IVS_original_glcm_Imc1": 1,
+    "PW_original_glcm_InverseVariance": 1,
+    "PW_original_ngtdm_Strength": 1,
+    "LV_original_shape2D_Elongation": 1,
+    "IVS_original_glszm_SizeZoneNonUniformity": 1,
+    "PW_original_glszm_LargeAreaEmphasis": 1,
+    "LV_original_shape2D_Perimeter": 1
+}
+fusion.predict(input_data)
