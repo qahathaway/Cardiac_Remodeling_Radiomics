@@ -18,12 +18,12 @@
 
 # Settings to use, possible settings are listed in the documentation (section "Customizing the extraction").
 setting:
-  binWidth: 1
-  interpolator: 'sitkBSpline'
-  resampledPixelSpacing: [0.1, 0.1]
-  weightingNorm: 'manhattan'
-  resegmentRange: [15.0]
-  resegmentMode: 'absolute'
+  binWidth: 
+  interpolator: ''
+  resampledPixelSpacing: [ , ]
+  weightingNorm: ''
+  resegmentRange: [ ]
+  resegmentMode: ''
 
 # Image types to use: "Original" for unfiltered image, for possible filters, see documentation.
 imageType:
