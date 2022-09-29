@@ -10,13 +10,13 @@ library(rms)
 library(rfUtilities)
 
 ASE <- data.frame(read.csv(
-  file = '/Users/quincy/Documents/Research/HVI/Radiomics - Automated/FINAL/Submission/JACC/Editor_Reviewer_Comments/Resubmission/Appeal/Revised/ASE-REWARD2.csv'))
+  file = 'path/to/file.csv'))
 
 CHOICE <- data.frame(read.csv(
-  file = '/Users/quincy/Documents/Research/HVI/Radiomics - Automated/FINAL/Submission/JACC/Editor_Reviewer_Comments/Resubmission/Appeal/Revised/CHOICE.csv'))
+  file = 'path/to/file.csv'))
 
 WVU <- data.frame(read.csv(
-  file = '/Users/quincy/Documents/Research/HVI/Radiomics - Automated/FINAL/Submission/JACC/Editor_Reviewer_Comments/Resubmission/Appeal/Revised/WVU.csv'))
+  file = 'path/to/file.csv'))
 
 reg <- glm(Outcome~.,data=ASE,family=binomial(link="logit"))
 summary(reg)
@@ -31,7 +31,6 @@ calibration_plot(data = CHOICE, obs = "Outcome", pred = "pred", y_lim = c(0, 0.6
                  title = "Calibration plot for validation data", group = "Outcome")
 
 
-
 # binary
 fb1=glm(Outcome~pred,data=ASE,family="binomial")
 fb2=glm(Outcome~calibrated,data=ASE,family="binomial")
@@ -44,7 +43,7 @@ y <- as.numeric(ASE$Outcome)
 calibrated <- probability.calibration(y, y.hat, regularization = TRUE)
 ASE$calibrated <- calibrated
 
-write.csv(ASE, file = "/Users/quincy/Documents/Research/HVI/Radiomics - Automated/FINAL/Submission/JACC/Editor_Reviewer_Comments/Resubmission/Appeal/Revised/ASEPred.csv")
+write.csv(ASE, file = "path/to/file.csv")
 
 xb=Score(list(model1=fb1, model2=fb2),Outcome~1,data=ASE, plots=c("calibration","ROC"))
 xb
@@ -53,4 +52,3 @@ plotCalibration(xb)
 plotCalibration(xb,bars=TRUE,model="model1")
 plotCalibration(xb,models=1,bars=TRUE,names.cex=1.3)
 hltest(fb2)
-
